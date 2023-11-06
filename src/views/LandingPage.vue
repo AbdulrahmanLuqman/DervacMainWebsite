@@ -4,7 +4,7 @@
 
 <script>
     import { defineComponent } from 'vue';
-import NeuroSection from '../components/LandingPage/NeuroSection.vue';
+    import NeuroSection from '../components/LandingPage/NeuroSection.vue';
     export default defineComponent({
     data() {
         return {};
