@@ -3,7 +3,7 @@
         <nav class="flex items-center justify-between px-16">
             <div class="flex items-center h-fit">
                 <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">
-                <p class="text-4xl font-bold text-[#224C75]">dervac</p>
+                <p class="text-4xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
             </div>
 
             <ul class="flex items-center gap-8">
@@ -417,4 +417,12 @@
 </script>
 
 <style scoped>
+@font-face {
+        font-family: 'Bimini';
+        src: url('../../assets/bimini/BiminiNormal.ttf') format('truetype');
+             /* url('./bimini/BIMINI__.TTF') format('TTF'); */
+        /* You can add more formats if needed */
+        font-weight: normal;
+        font-style: normal;
+}
 </style>
