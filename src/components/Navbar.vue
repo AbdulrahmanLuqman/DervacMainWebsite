@@ -137,23 +137,65 @@
         </nav>
     </header>
 
-    <header class="bg-[#FFFFFF] py-10 lg:hidden block">
-        <nav class="flex items-center justify-between px-16">
+    <header class="sticky top-0 z-[999] bg-[#FFFFFF] md:py-10 py-4 md:px-16 px-10 lg:hidden block">
+        <nav class="flex items-center justify-between">
             <div class="flex items-center h-fit">
                 <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">
                 <p class="text-4xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
             </div>
 
-            <div class="flex gap-2">
-                <img class="w-[40px] cursor-pointer" src="../assets/images/messages.svg" alt="Chat Icon">
-
-                <div class="">
-                    <p class="font-semibold text-[#8D8EA3]">Have any questions?</p>
-                    <p class="text-[#8D8EA3] font-semibold">Free <span class="text-[#224C75] underline"><a>09016461891</a></span></p>
+            <div class="flex items-center gap-6">
+                <div class="hidden md:flex gap-2">
+                    <img class="w-[40px] cursor-pointer" src="../assets/images/messages.svg" alt="Chat Icon">
+    
+                    <div>
+                        <p class="font-semibold text-[#8D8EA3]">Have any questions?</p>
+                        <p class="text-[#8D8EA3] font-semibold">Free <span class="text-[#224C75] underline"><a>09016461891</a></span></p>
+                    </div>
                 </div>
+                <svg @click="showMobileNav = true" class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="#224C75" stroke-linecap="round" stroke-width="1.5" d="M4 7h3m13 0h-9m9 10h-3M4 17h9m-9-5h16"/></svg>
             </div>
 
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M4 7h3m13 0h-9m9 10h-3M4 17h9m-9-5h16"/></svg>
+            <div v-show="showMobileNav" class="absolute bg-[#0E2B5C] w-full h-screen top-0 left-0 py-10 px-8 flex flex-col gap-8 items-end overflow-auto">
+                <div @click="showMobileNav = false" class="bg-[#DC2828] w-fit h-fit cursor-pointer rounded-[50%] p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="white" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg>
+                </div>
+                <ul class="flex gap-8 flex-col items-start w-full">
+                    <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Home</li>
+                    <li class="w-full">
+                        <div @click="isCompanyDropDown = !isCompanyDropDown, isServicesDropDown = false" class="flex justify-between">
+                            <p class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Company</p>
+                            <div class="border border-gray-500 rounded-[50%] p-2 cursor-pointer" :class="isCompanyDropDown ? 'bg-[#0A1E40] border-none' : 'bg-transparent'">
+                                <svg :class="isCompanyDropDown ? 'icon' : ''" class=" transition-all duration-[0.2s]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="white" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887q.375-.375.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75q0 .375-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1q-.375-.375-.375-.888t.375-.887L14.475 12Z"/></svg>
+                            </div>
+                        </div>
+
+                        <div v-show="isCompanyDropDown" class="pl-6 space-y-2">
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                        </div>
+                    </li>
+                    <li class="w-full">
+                        <div @click="isServicesDropDown = !isServicesDropDown, isCompanyDropDown = false" class="flex justify-between">
+                            <p class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Services & Solutions</p>
+                            <div class="border border-gray-500 rounded-[50%] p-2 cursor-pointer" :class="isServicesDropDown ? 'bg-[#0A1E40] border-none' : 'bg-transparent'">
+                                <svg :class="isServicesDropDown ? 'icon' : ''" class=" transition-all duration-[0.2s]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="white" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887q.375-.375.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75q0 .375-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1q-.375-.375-.375-.888t.375-.887L14.475 12Z"/></svg>
+                            </div>
+                        </div>
+
+                        <div v-show="isServicesDropDown" class="pl-6 space-y-2">
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                        </div>
+                    </li>
+                    <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Customer Support</li>
+                    <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Get in touch</li>
+                </ul>
+            </div>
         </nav>
     </header>
 </template>
@@ -164,6 +206,7 @@
     export default defineComponent({
         data(){
             return{
+                showMobileNav: store().$state.inActiveMode,
                 isCompanyDropDown: store().$state.inActiveMode, isServicesDropDown: store().$state.inActiveMode,
                 isHomeActive: true, 
                 isCompanyActive: store().$state.inActiveMode, isHistoryActive: store().$state.inActiveMode, isManagementActive: store().$state.inActiveMode, isCoreActive: store().$state.inActiveMode, isMethodologyActive: store().$state.inActiveMode, isWhyUsActive: store().$state.inActiveMode, isCareersActive: store().$state.inActiveMode, 
@@ -444,5 +487,10 @@
         /* You can add more formats if needed */
         font-weight: normal;
         font-style: normal;
+}
+
+.icon{
+    transform: rotateZ(90deg);
+    transition: all 0.2s ease-in-out;
 }
 </style>
