@@ -5,7 +5,7 @@
 
 <template>
 <div class="thisDiv">
-    <div class="px-20 text-center text-white flex flex-col space-y-3 items-center w-[75%] mx-auto pt-[150px]">
+    <div class="px-20 text-center text-white flex flex-col space-y-3 items-center w-[75%] mx-auto md:pt-[150px] pt-0">
         <p class="text-[#dc2828] text-[16px] font-semibold">WE ARE TECH COMPANY</p>
 
         <p class="text-[35px] font-bold">Turning Difficulties into Technological Victories</p>
@@ -18,23 +18,23 @@
 
         <div class="rounded-[12px] border border-[2px] border-gray-400 flex items-center space-x-5 px-8 h-[70px] anim">
             <div class="first">
-                <img src="../assets/images/envaccordLogo.png" alt="company's image" class="h-[80%] w-[110px]">
+                <img src="../../assets/images/envaccordLogo.png" alt="company's image" class="h-[80%] w-[110px]">
             </div>
 
             <div class="second">
-                <img src="../assets/images/bloommerg-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
+                <img src="../../assets/images/bloommerg-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
             </div>
 
             <div class="third">
-                <img src="../assets/images/forbes-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
+                <img src="../../assets/images/forbes-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
             </div>
 
             <div class="fourth">
-                <img src="../assets/images/gizmodo-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
+                <img src="../../assets/images/gizmodo-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
             </div>
 
             <div class="fifth">
-                <img src="../assets/images/tech-crunch.svg" alt="company's image" class="h-[80%] w-[110px]">
+                <img src="../../assets/images/tech-crunch.svg" alt="company's image" class="h-[80%] w-[110px]">
             </div>
         </div>
     </div>
@@ -45,7 +45,7 @@
 <style>
 
 .thisDiv {
-    background-image: url('../assets/images/gentle-coder-in-training-schedule-section-3c10d71f.svg');
+    background-image: url('../../assets/images/gentle-coder-in-training-schedule-section-3c10d71f.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
