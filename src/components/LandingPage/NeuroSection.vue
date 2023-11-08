@@ -1,6 +1,6 @@
 <template>
     <div class="relative h-screen">
-        <div class="bg w-full h-full absolute top-0 bg-[#2FD1D6]"></div>
+        <div class="bg w-full h-full absolute top-0 bg-[#253858]"></div>
         <img class="absolute h-full top-0 bg opacity-20" src="../../assets/images/bg.jpg" alt="bg">
         <div class="mx-auto top-[100px] w-fit text-center left-0 right-0 absolute">
             <p class="lg:text-5xl md:text-6xl text-2xl text-white">stop wasting </p>
@@ -22,7 +22,7 @@
                 <p class="anchor-link text-[#1EC2EF]">Find out more</p>
                 <svg class="anchor-link text-[#1EC2EF]" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="currentColor" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
 
-                <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#DC2828] absolute w-full h-full top-8"></div>
+                <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#FC5546] absolute w-full h-full top-8"></div>
             </div>
         </div>
 
@@ -37,7 +37,7 @@
                 <p class="anchor-link text-[#1EC2EF]">Find out more</p>
                 <svg class="anchor-link text-[#1EC2EF]" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="currentColor" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
 
-                <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#DC2828] absolute w-full h-full top-8"></div>
+                <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#FC5546] absolute w-full h-full top-8"></div>
             </div>
         </div>
 
@@ -52,14 +52,14 @@
                 <p class="anchor-link text-[#1EC2EF]">Find out more</p>
                 <svg class="anchor-link text-[#1EC2EF]" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="currentColor" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
 
-                <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#DC2828] absolute w-full h-full top-8"></div>
+                <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#FC5546] absolute w-full h-full top-8"></div>
             </div>
         </div>
     </div>
 
     <div class="flex gap-6">
-        <div class="w-16 cursor-pointer rounded-xl h-2 bg-[#DC2828]"></div>
-        <div class="w-16 cursor-pointer rounded-xl h-2 bg-gray-200"></div>
+        <div class="w-20 rounded-xl h-2 bg-[#DC2828]"></div>
+        <div class="w-20 rounded-xl h-2 bg-gray-200"></div>
     </div>
     </div>
 </template>
