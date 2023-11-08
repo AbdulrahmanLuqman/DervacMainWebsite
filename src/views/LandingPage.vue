@@ -1,5 +1,5 @@
 <template>
-    <!-- <NeuroSection /> -->
+    <NeuroSection />
     <whoWeAreSection />
     <techCompanySection />
 </template>
