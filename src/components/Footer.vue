@@ -55,7 +55,7 @@
         </div>
 
         <div>
-            <p class="text-[#8D8EA3] text-center py-10 border-t">Copyright &copy; {{ year }} Dervac. Desingned and Developed by <a href="heb.dervac.com" class="text-[#253858] hover:text-[#DC2828]">DervacHub Team</a></p>
+            <p class="text-[#8D8EA3] text-center py-10 border-t">Copyright &copy; {{ year }} <span class="font-[Bimini]">Dervac</span>. Designed and Developed by <a href="heb.dervac.com" class="text-[#253858] hover:text-[#DC2828]"> <span class="font-[Bimini]">DervacHub Team</span></a></p>
         </div>
     </footer>
 </template>
@@ -74,5 +74,12 @@
 </script>
 
 <style scoped>
-
+@font-face {
+        font-family: 'Bimini';
+        src: url('../../assets/bimini/BiminiNormal.ttf') format('truetype');
+             /* url('./bimini/BIMINI__.TTF') format('TTF'); */
+        /* You can add more formats if needed */
+        font-weight: normal;
+        font-style: normal;
+}
 </style>
