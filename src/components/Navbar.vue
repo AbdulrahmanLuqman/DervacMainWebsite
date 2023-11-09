@@ -1,5 +1,5 @@
 <template>
-    <header class="bg-[#FFFFFF] py-10 lg:block hidden">
+    <header class="sticky z-[999] top-0 shadow-xl bg-[#FFFFFF] py-8 lg:block hidden">
         <nav class="flex items-center justify-between px-16">
             <div class="flex gap-2 items-center h-fit">
                 <img class="w-[60px]" src="../assets/images/dervac_logo.png" alt="LOGO">
@@ -83,44 +83,6 @@
                     </ul>
                 </li>
 
-                <!-- <li class="relative">
-                    <div @click="Services()" class="flex  items-center cursor-pointer">
-                        <p class="font-semibold" :class="isServicesActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Products</p>
-
-                        <div>
-                            <svg v-if="!isServicesDropDown" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 24 24"><path fill="#929FB5" d="M8.12 9.29L12 13.17l3.88-3.88a.996.996 0 1 1 1.41 1.41l-4.59 4.59a.996.996 0 0 1-1.41 0L6.7 10.7a.996.996 0 0 1 0-1.41c.39-.38 1.03-.39 1.42 0z"/></svg>
-                            <svg v-else xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 24 24"><path fill="#929FB5" d="M6.4 19L5 17.6l5.6-5.6L5 6.4L6.4 5l5.6 5.6L17.6 5L19 6.4L13.4 12l5.6 5.6l-1.4 1.4l-5.6-5.6L6.4 19Z"/></svg>
-                        </div>
-                    </div>
-
-                    <ul v-show="isServicesDropDown" class="absolute left-[-69px] shadow-xl w-[300px] rounded-xl py-4">
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isDataAnalyticsActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="DataAnalyticsActive()" class="font-semibold hover:text-[#0E2B61]" :class="isDataAnalyticsActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Data Analytics</p>
-                        </li>
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isWebDevActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="WebDevActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isWebDevActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Web Development</p>
-                        </li>
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isWebAndEmailHostingActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="WebAndEmailHostingActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isWebAndEmailHostingActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Web & Email Hosting</p>
-                        </li>
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isDomainRegActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="DomainRegActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isDomainRegActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Domain Registration</p>
-                        </li>
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isWhyUsActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="WhyUsActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Why Us</p>
-                        </li>
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isCareersActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="CareerActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Careers</p>
-                        </li>
-                    </ul>
-                </li> -->
-
                 <li class="text-[#224C75] font-semibold">Customer Support</li>
 
                 <li class="text-[#224C75] font-semibold">Get in Touch</li>
@@ -137,7 +99,7 @@
         </nav>
     </header>
 
-    <header class="sticky top-0 z-[999] bg-[#FFFFFF] md:py-10 py-4 md:px-16 px-10 lg:hidden block">
+    <header class="sticky top-0 shadow-xl z-[999] bg-[#FFFFFF] md:py-10 py-4 md:px-16 px-10 lg:hidden block">
         <nav class="flex items-center justify-between">
             <div class="flex items-center h-fit">
                 <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">

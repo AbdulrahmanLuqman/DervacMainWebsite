@@ -2,14 +2,14 @@
     <div class="relative h-screen">
         <div class="bg w-full h-full absolute top-0 bg-[#253858]"></div>
         <img class="absolute h-full top-0 bg opacity-20" src="../../assets/images/bg.jpg" alt="bg">
-        <div class="mx-auto top-[100px] w-fit text-center left-0 right-0 absolute">
+        <div class="mx-auto top-[100px] w-fit text-center left-0 right-0 absolute space-y-2 px-4">
             <p class="lg:text-5xl md:text-6xl text-2xl text-white">stop wasting </p>
-             <p class="lg:text-8xl md:text-7xl text-5xl font-bold text-white">time and money</p> 
+             <p class="lg:text-8xl md:text-7xl text-4xl font-bold text-white">time and money</p> 
              <p class="lg:text-5xl md:text-6xl text-2xl text-white">on technology</p>
         </div>
     </div>
 
-    <div class="flex flex-col items-center gap-10 relative bottom-[220px]">
+    <!-- <div class="flex flex-col items-center gap-10 relative bottom-[220px]">
         <div class="flex gap-6 px-20">
         <div class="body bg-white h-[450px] rounded-xl shadow-xl flex flex-col gap-6 items-center px-8 py-12">
             <p class="text-[#253858] font-semibold text-3xl">Data Analytics</p>
@@ -61,7 +61,7 @@
         <div class="w-20 rounded-xl h-2 bg-[#DC2828]"></div>
         <div class="w-20 rounded-xl h-2 bg-gray-200"></div>
     </div>
-    </div>
+    </div> -->
 </template>
 
 <script>
