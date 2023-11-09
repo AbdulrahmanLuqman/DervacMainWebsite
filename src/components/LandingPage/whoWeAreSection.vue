@@ -24,7 +24,7 @@
             <div class="w-[90%] bg-[#dc2828] min-[500px]:h-[5px] h-[3px] min-[895px]:hidden mt-4"></div>
         </div>
 
-        <button type="button" class="bg-gradient-to-r from-[#dc2626] to-[#102539] py-[8px] sm:px-4 px-[3px] text-white sm:rounded-[15px] rounded-[5px] my-2">learn more</button>
+        <button type="button" class="bg-gradient-to-r from-[#dc2626] to-[#102539] hover:bg-gradient-to-t py-[8px] sm:px-4 px-[3px] text-white sm:rounded-[15px] rounded-[5px] my-2">learn more</button>
     </div>
 </div>
 </template>

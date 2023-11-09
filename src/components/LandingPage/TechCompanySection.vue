@@ -5,7 +5,7 @@
 <!-- min-[895px]:hidden -->
 <template>
 <div class="thisDiv">
-    <div class="px-20 text-center sm:text-white flex flex-col space-y-3 items-center w-[75%] mx-auto md:pt-[150px] sm:pt-[60px] pt-6">
+    <div class="z-[100] relative px-20 text-center sm:text-white flex flex-col space-y-3 items-center w-[75%] mx-auto md:pt-[150px] sm:pt-[60px] pt-6">
         <p class="text-[#dc2828] sm:text-[16px] text-[10px] font-semibold">WE ARE TECH COMPANY</p>
 
         <p class="md:text-[35px] sm:text-[25px] text-[15px] font-bold">Turning Difficulties into Technological Victories</p>
@@ -17,27 +17,13 @@
         </div>
 
         <div class="sm:rounded-[12px] rounded-[5px] border border-[2px] border-gray-400 flex items-center space-x-5 px-8 sm:h-[70px] anim">
-            <div class="first">
-                <img src="../../assets/images/envaccordLogo.png" alt="company's image" class="h-[80%] w-[110px]">
-            </div>
-
-            <div class="second">
-                <img src="../../assets/images/bloommerg-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
-            </div>
-
-            <div class="third">
-                <img src="../../assets/images/forbes-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
-            </div>
-
-            <div class="fourth">
-                <img src="../../assets/images/gizmodo-logo.svg" alt="company's image" class="h-[80%] w-[110px]">
-            </div>
-
-            <div class="fifth">
-                <img src="../../assets/images/tech-crunch.svg" alt="company's image" class="h-[80%] w-[110px]">
-            </div>
+            <marquee>
+                <img src="../../assets/images/" alt="">
+            </marquee>
         </div>
     </div>
+    <div class="absolute top-0 bg-black h-full opacity-75 w-full"></div>
+
 </div>
 </template>
 
@@ -52,6 +38,7 @@
     background-position: center;
     background-color: rgba(98, 98, 206, 0.37);
     height: 88vh;
+    position: relative;
 }
 
 .anim{
