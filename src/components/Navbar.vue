@@ -1,9 +1,9 @@
 <template>
     <header class="bg-[#FFFFFF] py-10 lg:block hidden">
         <nav class="flex items-center justify-between px-16">
-            <div class="flex items-center h-fit">
-                <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">
-                <p class="text-4xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
+            <div class="flex gap-2 items-center h-fit">
+                <img class="w-[60px]" src="../assets/images/dervac_logo.png" alt="LOGO">
+                <p class="text-6xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
             </div>
 
             <ul class="flex items-center gap-8">
@@ -131,7 +131,7 @@
 
                 <div class="">
                     <p class="font-semibold text-[#8D8EA3]">Have any questions?</p>
-                    <p class="text-[#8D8EA3] font-semibold">Free <span class="text-[#224C75] underline"><a>09016461891</a></span></p>
+                    <p class="text-[#8D8EA3] font-semibold">Dial <span class="text-[#224C75] underline"><a href="tel:08160225365,">+234 816 022 5365,</a></span></p>
                 </div>
             </div>
         </nav>
