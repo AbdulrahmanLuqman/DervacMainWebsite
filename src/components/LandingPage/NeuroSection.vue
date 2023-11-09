@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <!-- <div class="flex flex-col items-center gap-10 relative bottom-[220px]">
+    <div class="flex flex-col items-center gap-10 relative bottom-[220px]">
         <div class="flex gap-6 px-20">
         <div class="body bg-white h-[450px] rounded-xl shadow-xl flex flex-col gap-6 items-center px-8 py-12">
             <p class="text-[#253858] font-semibold text-3xl">Data Analytics</p>
@@ -61,7 +61,7 @@
         <div class="w-20 rounded-xl h-2 bg-[#DC2828]"></div>
         <div class="w-20 rounded-xl h-2 bg-gray-200"></div>
     </div>
-    </div> -->
+    </div>
 </template>
 
 <script>

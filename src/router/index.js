@@ -14,6 +14,11 @@ const router = createRouter({
           name: 'LandingPage',
           component: LandingPage
         }
+        // {
+        //   path: '/mission-vision-and-values',
+        //   name: 'Mission,VisionsAndValuePage',
+        //   component: MissionVisionsAndValuePage
+        // }
       ]
     },
     {
