@@ -7,20 +7,23 @@
                     <!-- address -->
                     <div class="flex gap-4 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="22" viewBox="0 0 576 512"><path fill="#01406E" d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h448c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm80 256h64c44.2 0 80 35.8 80 80c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16c0-44.2 35.8-80 80-80zm-32-96a64 64 0 1 1 128 0a64 64 0 1 1-128 0zm256-32h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16zm0 64h128c8.8 0 16 7.2 16 16s-7.2 16-16 16H368c-8.8 0-16-7.2-16-16s7.2-16 16-16z"/></svg>
-                        <div class="flex w-[330px]">
-                            <p class="text-lg"><span class="font-semibold text-[#DC2828]">HQ:</span> 9, Tunde Oshilaja Street, Opebi, Ikeja, Lagos | <span class="font-semibold text-[#DC2828]">Hub:</span> 65, Shipeolu Street, Palmgroove</p>
-                            <p class="text-lg"></p>
+                        <div class="flex flex-col w-[300px]">
+                            <p class=""><span class="font-semibold text-[#DC2828]">HQ:</span> 9, Tunde Oshilaja Street, Opebi, Ikeja</p><p><span class="font-semibold text-[#DC2828]">Hub:</span> 65, Shipeolu Street, Palmgroove, Lagos, Nigeria.</p>
                         </div>
                     </div>
                     <!-- email -->
                     <div class="flex gap-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path fill="#01406E" d="M12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12v1.45q0 1.475-1.012 2.513T18.5 17q-.875 0-1.65-.375t-1.3-1.075q-.725.725-1.638 1.088T12 17q-2.075 0-3.538-1.463T7 12q0-2.075 1.463-3.538T12 7q2.075 0 3.538 1.463T17 12v1.45q0 .65.425 1.1T18.5 15q.65 0 1.075-.45t.425-1.1V12q0-3.35-2.325-5.675T12 4Q8.65 4 6.325 6.325T4 12q0 3.35 2.325 5.675T12 20h4q.425 0 .713.288T17 21q0 .425-.288.713T16 22h-4Zm0-7q1.25 0 2.125-.875T15 12q0-1.25-.875-2.125T12 9q-1.25 0-2.125.875T9 12q0 1.25.875 2.125T12 15Z"/></svg>                       
-                         <p class="text-lg cursor-pointer hover:underline hover:text-[#DC2828]"><a href="mailto:info@dervac.com">info@dervac.com</a></p>
+                        <div class="flex gap-2">
+                            <p class="cursor-pointer hover:underline hover:text-[#DC2828]"><a href="mailto:info@dervac.com">info@dervac.com</a></p>
+                            <p>|</p>
+                            <p class="cursor-pointer hover:underline hover:text-[#DC2828]"><a href="mailto:info@dervac.com">hub@dervac.com</a></p>
+                        </div>
                     </div>
                     <!-- numbers -->    
                     <div class="w-[330px] flex gap-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24"><path fill="#01406E" d="M20.875 22q-3.9 0-7.338-1.475t-6-4.038q-2.562-2.562-4.05-6T2 3.126q-.025-.45.3-.788T3.1 2H7q.45 0 .775.338t.325.812q0 1.1.15 2.075t.475 1.85q.125.275.05.562t-.3.538l-2.5 2.5q1.075 2.2 3.05 4.175t4.25 3.15l2.5-2.5q.225-.225.525-.3t.6.05q.925.3 1.913.463t2.037.162q.475 0 .813.35t.337.85V20.9q0 .45-.325.775t-.8.325ZM20 12q0-3.35-2.325-5.675T12 4V2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12h-2Zm-4 0q0-1.65-1.175-2.825T12 8V6q2.5 0 4.25 1.75T18 12h-2Z"/></svg>
-                        <p class="text-lg"><a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:08160225365">+234 816 022 5365,</a> <a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:09093790787">+234 909 379 0787,</a> <a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:08026944449">+234 802 694 4449,</a></p>
+                        <p class=""><a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:08160225365">+234 816 022 5365,</a> <a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:09093790787">+234 909 379 0787,</a> <a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:08026944449">+234 802 694 4449,</a> <a class="cursor-pointer hover:underline hover:text-[#DC2828]" href="tel:08113869322"> +234 811 386 9322</a></p>
                     </div>
                     
                 </div>
@@ -37,42 +40,42 @@
             <!-- <div class="flex flex-wrap gap-10 w-[60%]"> -->
                 <div class="space-y-2 pt-[28px]">
                     <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Company</p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
                 </div>
 
                 <div class="space-y-2 pt-[28px]">
                     <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Services</p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
                 </div>
 
                 <div class="space-y-2 pt-[28px]">
                     <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Support</p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
                 </div>
 
                 <div class="space-y-2 pt-[28px]">
                     <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Support</p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
-                    <p class="text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our History and Ethos</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Management Team</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
                 </div>
             <!-- </div> -->
         </div>
