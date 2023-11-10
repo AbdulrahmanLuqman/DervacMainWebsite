@@ -45,7 +45,7 @@
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Us</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
+                   <router-link to="/strategy"><p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p></router-link>
                 </div>
 
                 <div class="space-y-2 pt-[28px]">

@@ -4,7 +4,7 @@
             <p class="text-[#224C75] tracking-widest text-sm">DISCOVER OUR COMPANY</p>
             <p class="text-3xl text-[#0E2B5C] font-semibold">Experience the culture that make us stand out.</p>
         </div>
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 md:gap-[30px] lg:gap-[40px]">
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-[60px] lg:gap-[40px]">
             <!-- <div class="w-full space-y-4 border-t-[8px] border-[#DC2828] px-4 pt-10">
                 <p class="flex gap-6 font-semibold text-[#224C75] text-lg"><span @click="showVision = false" :class="showVision ? 'text-[#224C75] cursor-pointer hover:bg-[#224C75] hover:text-white py-[2px] px-2 rounded-lg hover:shadow-md' : 'text-white bg-[#224C75] py-[2px] px-2 rounded-lg shadow-md cursor-pointer'">Mission</span> <span @click="showVision = true" :class="!showVision ? 'text-[#224C75] cursor-pointer hover:bg-[#224C75] hover:text-white py-[2px] px-2 rounded-lg hover:shadow-md' : 'text-white bg-[#224C75] py-[2px] px-2 rounded-lg shadow-md cursor-pointer'">Vision</span></p>
                 <p v-show="showVision" class="text-[#929FB5] text-[17px]">To become one, of the world's leading provider of innovative, systematic and goal-orientated quality services and solutions with effective presence in Nigeria and Africa as a backbone.</p>
@@ -26,7 +26,7 @@
                     <div class="container w-full cursor-pointer space-y-4 border-t-[8px] border-[#DC2828] px-4 pt-10">
                         <div class="flex overflow-hidden gap-2 items-center">
                             <p class="flex gap-10 font-semibold text-[#224C75] text-lg">{{ discover.heading }}</p>
-                            <div class="relative"><svg class="icon absolute top-[-5px] left-[200px] transition-all duration-500" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#224C75" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg></div>
+                            <div class="relative"><svg class="icon absolute top-[-5px] left-[2000px] transition-all duration-500" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#224C75" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg></div>
                         </div>
                         <p v-html="discover.content" class="text-[#929FB5] text-[17px]"></p>
                     </div>
@@ -38,7 +38,7 @@
 
 <script>
     import {defineComponent} from 'vue'
-    import store from '../stores/counter';
+    import store from '../../stores/counter';
     export default defineComponent({
         data(){
             return{

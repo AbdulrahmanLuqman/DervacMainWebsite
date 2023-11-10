@@ -1,13 +1,15 @@
 <template>
-    <header class="sticky z-[999] top-0 shadow-xl bg-[#FFFFFF] py-8 lg:block hidden">
+    <header class="desktop-header sticky z-[999] top-0 shadow-xl bg-[#FFFFFF] py-8">
         <nav class="flex items-center justify-between px-16">
-            <div class="flex gap-2 items-center h-fit">
-                <img class="w-[60px]" src="../assets/images/dervac_logo.png" alt="LOGO">
-                <p class="text-6xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
-            </div>
+           <router-link to="/"> 
+                <div class="flex gap-2 items-center h-fit">
+                    <img class="w-[50px]" src="../assets/images/dervac_logo.png" alt="LOGO">
+                    <p class="text-5xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
+                </div>
+            </router-link>
 
             <ul class="flex items-center gap-8">
-                <li @click="HomeActive()" class="cursor-pointer font-semibold hover:text-[#8D8EA3]" :class="isHomeActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Home</li>
+                <router-link to="/"><li @click="HomeActive()" class="cursor-pointer font-semibold hover:text-[#8D8EA3]" :class="isHomeActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Home</li></router-link>
                 <li class="relative">
                     <div @click="Company()" class="flex items-center cursor-pointer">
                         <p class="font-semibold" :class="isCompanyActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Company</p>
@@ -92,14 +94,14 @@
                 <img class="w-[40px] cursor-pointer" src="../assets/images/messages.svg" alt="Chat Icon">
 
                 <div class="">
-                    <p class="font-semibold text-[#8D8EA3]">Have any questions?</p>
+                    <p class="font-semibold text-[#8D8EA3]">Have an idea or project?</p>
                     <p class="text-[#8D8EA3] font-semibold">Dial <span class="text-[#224C75] underline"><a href="tel:08160225365,">+234 816 022 5365,</a></span></p>
                 </div>
             </div>
         </nav>
     </header>
 
-    <header class="sticky top-0 shadow-xl z-[999] bg-[#FFFFFF] md:py-10 py-4 md:px-16 px-10 lg:hidden block">
+    <header class="mobile-header sticky top-0 shadow-xl z-[999] bg-[#FFFFFF] md:py-10 py-4 md:px-16 px-10 hidden">
         <nav class="flex items-center justify-between">
             <div class="flex items-center h-fit">
                 <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">
@@ -454,5 +456,14 @@
 .icon{
     transform: rotateZ(90deg);
     transition: all 0.2s ease-in-out;
+}
+
+@media (max-width:1253px) {
+    .desktop-header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+    }
 }
 </style>

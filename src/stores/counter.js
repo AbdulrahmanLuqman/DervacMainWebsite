@@ -26,6 +26,25 @@ export default function store() {
           content: "We remain steadfast in your project, dedicated to fulfilling your entrusted tasks. We tirelessly commit resources to ensure timely project completion and delivery",
           routeTo: "/commitment"
         }
+      ],
+      services: [
+        {
+          heading: 'Data Analytics',
+          icon: '<svg class="w-fit mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#253858" d="m8 18l-6-6l6-6l1.425 1.425l-4.6 4.6L9.4 16.6L8 18Zm8 0l-1.425-1.425l4.6-4.6L14.6 7.4L16 6l6 6l-6 6Z"/></svg>',
+          content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio non exercitationem corrupti sapiente odit molestiae.',
+          more: '/more',
+        },
+        {
+          heading: 'Data Analytics',
+          icon: '<svg class="w-fit mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#253858" d="m8 18l-6-6l6-6l1.425 1.425l-4.6 4.6L9.4 16.6L8 18Zm8 0l-1.425-1.425l4.6-4.6L14.6 7.4L16 6l6 6l-6 6Z"/></svg>',
+          content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio non exercitationem corrupti sapiente odit molestiae.',
+          more: '/more',
+        },        {
+          heading: 'Data Analytics',
+          icon: '<svg class="w-fit mx-auto" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path fill="#253858" d="m8 18l-6-6l6-6l1.425 1.425l-4.6 4.6L9.4 16.6L8 18Zm8 0l-1.425-1.425l4.6-4.6L14.6 7.4L16 6l6 6l-6 6Z"/></svg>',
+          content: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio non exercitationem corrupti sapiente odit molestiae.',
+          more: '/more',
+        },
       ]
     })
   })()

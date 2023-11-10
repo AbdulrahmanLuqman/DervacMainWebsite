@@ -10,6 +10,7 @@
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.3.4",
+    "vue-ai-carousel": "^1.1.1",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

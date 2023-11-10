@@ -13,7 +13,8 @@
         <p>At our core, we specialize in converting complex challenges into resounding technological successes. We thrive on finding innovative solutions that not only overcome obstacles but also propel your business forward. Our team of experts is dedicated to harnessing the power of technology to tackle the most intricate issues, ensuring that you achieve triumph in your endeavors. We are your trusted partner in achieving technological victories that drive progress and achieve your objectives</p>
 
         <div>
-            <div class="bg-[#dc2828] w-[100px] h-[5px] my-4"></div>
+            <div class="bg-[#dc2828] w-[100px] mx-auto h-[5px] my-4"></div>
+            <p class="text-lg font-semibold">Technology Partners</p>
         </div>
 
         <div class="rounded-[15px] h-[90px] border border-[2px] border-gray-400 flex items-center space-x-5 lg:py-4">
@@ -56,7 +57,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-color: rgba(98, 98, 206, 0.37);
+    /* background-color: rgba(98, 98, 206, 0.37); */
     position: relative;
 }
 
