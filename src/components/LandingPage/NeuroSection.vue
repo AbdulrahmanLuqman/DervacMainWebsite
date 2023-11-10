@@ -29,7 +29,7 @@
     <div  class="flex flex-col items-center gap-10 relative lg:bottom-[220px] bottom-[120px]">
         <div class="flex gap-6 px-20">
     <!-- <VueAIcarousel :Property="{ID: 'Unique_id', Dlay: 1000}"> -->
-        <!-- <div v-for="service in services" :key="service.id" class="body bg-white h-[450px] rounded-xl shadow-xl flex flex-col gap-6 items-center px-8 py-12">
+        <div v-for="service in services" :key="service.id" class="body bg-white h-[450px] rounded-xl shadow-xl flex flex-col gap-6 items-center px-8 py-12">
             <p class="text-[#253858] font-semibold text-3xl">{{ service.heading }}</p>
             <div class="flex flex-col items-center">
                 <div v-html="service.icon" class="icon transition-all duration-[0.2s] w-[90px] text-center"></div>
@@ -42,7 +42,7 @@
 
                 <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#FC5546] absolute w-full h-full top-8"></div>
             </div>
-        </div> -->
+        </div>
     <!-- </VueAIcarousel> -->
 
     </div>
