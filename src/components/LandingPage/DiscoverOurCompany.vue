@@ -1,5 +1,5 @@
 <template>
-    <section class="space-y-10 lg:p-10 py-20 px-20 max-[572px]:px-10">
+    <section class="space-y-10 lg:p-10 py-10 px-20 max-[572px]:px-10">
         <div class="space-y-2">
             <p class="text-[#224C75] tracking-widest text-sm">DISCOVER OUR COMPANY</p>
             <p class="text-3xl text-[#0E2B5C] font-semibold">Experience the culture that make us stand out.</p>

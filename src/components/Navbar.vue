@@ -12,7 +12,7 @@
                 <router-link to="/"><li @click="HomeActive()" class="cursor-pointer font-semibold hover:text-[#8D8EA3]" :class="isHomeActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Home</li></router-link>
                 <li class="relative">
                     <div @click="Company()" class="flex items-center cursor-pointer">
-                        <p class="font-semibold" :class="isCompanyActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Company</p>
+                        <p class="font-semibold" :class="isCompanyActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Profile</p>
 
                         <div>
                             <svg v-if="!isCompanyDropDown" xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 24 24"><path fill="#929FB5" d="M8.12 9.29L12 13.17l3.88-3.88a.996.996 0 1 1 1.41 1.41l-4.59 4.59a.996.996 0 0 1-1.41 0L6.7 10.7a.996.996 0 0 1 0-1.41c.39-.38 1.03-.39 1.42 0z"/></svg>
@@ -21,14 +21,12 @@
                     </div>
 
                     <ul v-show="isCompanyDropDown" class="z-[200] absolute left-[-69px] bg-white shadow-xl w-[300px] rounded-xl py-4">
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isHistoryActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="HistoryActive()" class="font-semibold hover:text-[#0E2B61]" :class="isHistoryActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Our History and Ethos</p>
-                        </li>
-                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isManagementActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="ManagementActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isManagementActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Management Team</p>
-                        </li>
+                        <router-link to="/">
+                            <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
+                                <svg v-show="isHistoryActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
+                                <p @click="HistoryActive()" class="font-semibold hover:text-[#0E2B61]" :class="isHistoryActive ? 'text-[#0E2B61]' : 'text-[#627792]'">About Us</p>
+                            </li>
+                        </router-link>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isCoreActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
                             <p @click="CoreActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isCoreActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Our Core Expertise</p>
@@ -38,8 +36,8 @@
                             <p @click="MetholodogyActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Our Metholodogy</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
-                            <svg v-show="isWhyUsActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="WhyUsActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Why Us</p>
+                            <svg v-show="isManagementActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
+                            <p @click="ManagementActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isManagementActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Management Team</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isCareersActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
@@ -57,37 +55,41 @@
                         </div>
                     </div>
 
-                    <ul v-show="isServicesDropDown" class="z-[200] absolute left-[-69px] bg-white shadow-xl w-[300px] rounded-xl py-4">
+                    <ul v-show="isServicesDropDown" class="z-[200] absolute left-[-69px] bg-white shadow-xl w-[400px] rounded-xl py-4">
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isDataAnalyticsActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="DataAnalyticsActive()" class="font-semibold hover:text-[#0E2B61]" :class="isDataAnalyticsActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Data Analytics</p>
+                            <p @click="DataAnalyticsActive()" class="font-semibold hover:text-[#0E2B61]" :class="isDataAnalyticsActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Information & Communication Technology</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isWebDevActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="WebDevActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isWebDevActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Web Development</p>
+                            <p @click="WebDevActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isWebDevActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Software Development & Integration</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isWebAndEmailHostingActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="WebAndEmailHostingActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isWebAndEmailHostingActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Web & Email Hosting</p>
+                            <p @click="WebAndEmailHostingActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isWebAndEmailHostingActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Infrastructure & Support</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isDomainRegActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="DomainRegActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isDomainRegActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Domain Registration</p>
+                            <p @click="DomainRegActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isDomainRegActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Security System</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isNetworkingProfActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="NetworkingProfActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isNetworkingProfActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Networking Professionals</p>
+                            <p @click="NetworkingProfActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isNetworkingProfActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Business Solutions</p>
                         </li>
                         <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
                             <svg v-show="isCareersActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
-                            <p @click="CareerActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Careers</p>
+                            <p @click="CareerActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Educational Technology Consultancy</p>
+                        </li>
+                        <li class="flex items-center gap-4 cursor-pointer px-8 py-2">
+                            <svg v-show="isCareersActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
+                            <p @click="CareerActive()" class="text-[#627792] font-semibold hover:text-[#0E2B61]" :class="isMethodologyActive ? 'text-[#0E2B61]' : 'text-[#627792]'">Training Services & Customer Education</p>
                         </li>
                     </ul>
                 </li>
 
-                <li class="text-[#224C75] font-semibold">Customer Support</li>
+                <li class="text-[#224C75] font-semibold cursor-pointer">Customer Support</li>
 
-                <li class="text-[#224C75] font-semibold">Get in Touch</li>
+                <router-link to="/contact"><li @click="ContactActive()" class="text-[#224C75] font-semibold cursor-pointer" :class="isContactActive ? 'text-[#DC2828]' : 'text-[#224C75]'">Get in Touch</li></router-link>
             </ul>
 
             <div class="flex gap-2">
@@ -103,10 +105,12 @@
 
     <header class="mobile-header sticky top-0 shadow-xl z-[999] bg-[#FFFFFF] md:py-10 py-4 md:px-16 px-10 hidden">
         <nav class="flex items-center justify-between">
-            <div class="flex items-center h-fit">
-                <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">
-                <p class="text-4xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
-            </div>
+            <router-link to="/">
+                <div class="flex items-center h-fit">
+                    <img class="w-[40px]" src="../assets/images/dervac_logo.png" alt="LOGO">
+                    <p class="text-4xl font-bold text-[#224C75] font-[Bimini]">dervac</p>
+                </div>
+            </router-link>
 
             <div class="flex items-center gap-6">
                 <div class="hidden md:flex gap-2">
@@ -125,7 +129,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="white" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg>
                 </div>
                 <ul class="flex gap-8 flex-col items-start w-full">
-                    <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Home</li>
+                    <router-link to="/"><li @click="showMobileNav = false" class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Home</li></router-link>
                     <li class="w-full">
                         <div @click="isCompanyDropDown = !isCompanyDropDown, isServicesDropDown = false" class="flex justify-between">
                             <p class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Company</p>
@@ -157,7 +161,7 @@
                         </div>
                     </li>
                     <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Customer Support</li>
-                    <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Get in touch</li>
+                    <router-link to="/contact"><li @click="showMobileNav = false" class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Get in touch</li></router-link>
                 </ul>
             </div>
         </nav>
@@ -173,8 +177,9 @@
                 showMobileNav: store().$state.inActiveMode,
                 isCompanyDropDown: store().$state.inActiveMode, isServicesDropDown: store().$state.inActiveMode,
                 isHomeActive: true, 
-                isCompanyActive: store().$state.inActiveMode, isHistoryActive: store().$state.inActiveMode, isManagementActive: store().$state.inActiveMode, isCoreActive: store().$state.inActiveMode, isMethodologyActive: store().$state.inActiveMode, isWhyUsActive: store().$state.inActiveMode, isCareersActive: store().$state.inActiveMode, 
+                isCompanyActive: store().$state.inActiveMode, isHistoryActive: store().$state.inActiveMode, isManagementActive: store().$state.inActiveMode, isCoreActive: store().$state.inActiveMode, isMethodologyActive: store().$state.inActiveMode, isCareersActive: store().$state.inActiveMode, 
                 isServicesActive: store().$state.inActiveMode, isDataAnalyticsActive: store().$state.inActiveMode, isWebDevActive: store().$state.inActiveMode, isWebAndEmailHostingActive: store().$state.inActiveMode, isDomainRegActive: store().$state.inActiveMode, isNetworkingProfActive: store().$state.inActiveMode,
+                isContactActive: store().$state.inActiveMode,
             }
         },
         methods: {
@@ -185,7 +190,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isWebDevActive = false
@@ -193,6 +197,7 @@
                 this.isWebAndEmailHostingActive = false
                 this.isDomainRegActive = false
                 this.isNetworkingProfActive = false
+                this.isContactActive = false
 
                 // dropdowns
                 this.isCompanyDropDown = false
@@ -205,7 +210,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isWebDevActive = false
@@ -213,6 +217,7 @@
                 this.isWebAndEmailHostingActive = false
                 this.isDomainRegActive = false
                 this.isNetworkingProfActive = false
+                this.isContactActive = false
 
                 
                 // dropdowns
@@ -226,7 +231,6 @@
                 this.isManagementActive = true
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isWebDevActive = false
@@ -247,7 +251,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = true
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isWebDevActive = false
@@ -268,28 +271,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = true
-                this.isWhyUsActive = false
-                this.isCareersActive = false
-                this.isDataAnalyticsActive = false
-                this.isWebDevActive = false
-                this.isServicesActive = false
-                this.isWebAndEmailHostingActive = false
-                this.isDomainRegActive = false
-                this.isNetworkingProfActive = false
-
-
-                // dropdowns
-                this.isCompanyDropDown = false
-                this.isServicesDropDown = false
-            },
-            WhyUsActive(){
-                this.isHomeActive = false
-                this.isHistoryActive = false
-                this.isCompanyActive = true
-                this.isManagementActive = false
-                this.isCoreActive = false
-                this.isMethodologyActive = false
-                this.isWhyUsActive = true
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isWebDevActive = false
@@ -310,7 +291,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = true
                 this.isDataAnalyticsActive = false
                 this.isWebDevActive = false
@@ -331,7 +311,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = true
                 this.isServicesActive = true
@@ -352,7 +331,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isServicesActive = true
@@ -373,7 +351,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isServicesActive = true
@@ -394,7 +371,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isServicesActive = true
@@ -415,7 +391,6 @@
                 this.isManagementActive = false
                 this.isCoreActive = false
                 this.isMethodologyActive = false
-                this.isWhyUsActive = false
                 this.isCareersActive = false
                 this.isDataAnalyticsActive = false
                 this.isServicesActive = true
@@ -423,6 +398,27 @@
                 this.isWebAndEmailHostingActive = false
                 this.isDomainRegActive = false
                 this.isNetworkingProfActive = true
+
+
+                // dropdowns
+                this.isCompanyDropDown = false
+                this.isServicesDropDown = false
+            },
+            ContactActive(){
+                this.isHomeActive = false
+                this.isHistoryActive = false
+                this.isCompanyActive = false
+                this.isManagementActive = false
+                this.isCoreActive = false
+                this.isMethodologyActive = false
+                this.isCareersActive = false
+                this.isDataAnalyticsActive = false
+                this.isServicesActive = false
+                this.isWebDevActive = false
+                this.isWebAndEmailHostingActive = false
+                this.isDomainRegActive = false
+                this.isNetworkingProfActive = false
+                this.isContactActive = true
 
 
                 // dropdowns
@@ -451,11 +447,6 @@
         /* You can add more formats if needed */
         font-weight: normal;
         font-style: normal;
-}
-
-.icon{
-    transform: rotateZ(90deg);
-    transition: all 0.2s ease-in-out;
 }
 
 @media (max-width:1253px) {

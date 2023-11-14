@@ -4,7 +4,7 @@
 
 <template>
                 <!-- max-[1285px]:h-fit -->
-<div class="flex lg:flex-row flex-col items-center justify-center w-full gap-20 lg:p-10 pt-10 pb-20 px-20 max-[572px]:px-10">
+<div class="flex lg:flex-row flex-col items-center justify-center w-full gap-20 lg:p-10 mt-[25px] mb-[0px] pt-10 pb-20  max-[572px]:px-10">
     <div class="w-full h-full">
         <img class="w-full h-full" src="../../assets/images/gentle-coder-in-training-schedule-section-3c10d71f.svg" alt="">
     </div>
@@ -14,13 +14,13 @@
 
         <h1 class="text-4xl max-[1397px]:text-3xl max-[1183px]:text-2xl max-[1024px]:text-4xl max-[700px]:text-2xl max-[500px]:text-xl font-bold text-black">Providing IT solutions that empower you to work more efficiently</h1>
 
-        <p class="text-md"> <span class="font-[Bimini] text-[#224c75]">dervac</span> is designed to empower your organization by harnessing the power of technology to improve efficiency and productivity. We understand the challenges businesses face in today's fast-paced environment, and our tailored IT solutions are aimed at streamlining your operations, optimizing workflows, and enhancing collaboration</p>
+        <p class="text-md"> <span class="font-[Bimini] text-[#224c75]">Dervac</span>, a leading ICT firm, pioneers innovative solutions through strategic thinking, distinctive design, and emerging technologies. Specializing in turnkey solutions, outsourcing, and maintenance, we offer state-of-the-art systems, equipment, and support. With extensive experience in offshore software development, we deliver cost-effective, user-friendly web applications aligned with modern databases. Our mature understanding spans diverse media, providing tailor-made solutions, whether standalone, networked, or internet-connected applications. Dervac's expertise extends to high-end professional training on cutting-edge technologies, led by industry experts. Committed to continual improvement, we identify, test, and deploy new technologies, refining best practices for a positive impact on our customers' business.</p>
 
-        <div class="flex items-center gap-8">
+        <!-- <div class="flex items-center gap-8">
             <div class="h-[68px] bg-[#2d557c] w-[5px]"></div>
 
             <p class="text-lg max-[1140px]:text-[17px] max-[1024px]:text-lg max-[500px]:text-base">The features are up-to-date and have helped our clients streamline their workflow significantly</p>
-        </div>
+        </div> -->
 
         <button type="button" class="bg-gradient-to-r from-[#2d557c] to-[#102539] hover:bg-gradient-to-t px-4 py-2 text-white rounded-xl">learn more</button>
     </div>

@@ -52,7 +52,7 @@
 <style>
 
 .thisDiv {
-    background-image: url('../../assets/images/gentle-coder-in-training-schedule-section-3c10d71f.svg');
+    background-image: url('../../assets/images/man_cable.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

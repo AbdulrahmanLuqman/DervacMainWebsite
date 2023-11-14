@@ -1,5 +1,5 @@
 <template>
-    <section class="cont py-20 my-14">
+    <section class="cont py-20 my-10">
         <div class="relative z-[800] lg:w-[50%] md:w-[70%] px-10 space-y-10">
             <p class="text-[#dc2828] text-lg font-semibold tracking-wider">Dervac in numbers</p>
             <p class="text-4xl font-semibold text-white">Leading the Way in Technological Advancement</p>
@@ -16,7 +16,7 @@
                 </div>
                 <div>
                     <p class="text-white font-semibold text-5xl">33+</p>
-                    <p class="text-gray-300 font-light">Global Countries</p>
+                    <p class="text-gray-300 font-light">Dedicated Professionals</p>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
 
 <style scoped>
 .cont {
-    background-image: url('../../assets/images/gentle-coder-in-training-schedule-section-3c10d71f.svg');
+    background-image: url('../../assets/images/discover_dervac_bg.webp');
     background-size: cover;
     background-repeat: no-repeat;
     /* background-attachment: fixed; */

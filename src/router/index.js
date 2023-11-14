@@ -1,25 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import LandingPage from '../views/LandingPage.vue';
+import AboutPage from '../views/AboutPage.vue'
+import ContactPage from '../views/ContactPage.vue'
 import NotFound from '../components/NotFound.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path : '/',
-      name : 'LandingPage',
-      children: [
-        {
-          path: '/',
-          name: 'LandingPage',
-          component: LandingPage
-        }
-        // {
-        //   path: '/mission-vision-and-values',
-        //   name: 'Mission,VisionsAndValuePage',
-        //   component: MissionVisionsAndValuePage
-        // }
-      ]
+      path: '/',
+      name: 'LandingPage',
+      component: LandingPage
+    },
+    {
+      path: '/about',
+      name: 'AboutPage',
+      component: AboutPage
+    },
+    {
+      path: '/contact',
+      name: 'ContactPage',
+      component: ContactPage
     },
     {
       path: '/:catchAll(.*)',
