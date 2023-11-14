@@ -49,7 +49,7 @@
                 </div>
 
                 <div class="space-y-2 pt-[28px]">
-                    <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Product & Solutions</p>
+                    <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Products & Solutions</p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Co-Working Space</a></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Medisure Diagnostic System</a></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Smart Laboratory System</a></p>
