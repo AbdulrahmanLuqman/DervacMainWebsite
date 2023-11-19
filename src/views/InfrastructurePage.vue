@@ -9,8 +9,8 @@
 
 <script>
     import ContactSection from '../components/LandingPage/ContactSection.vue';
-import Benefits from '../components/ServicesPage/InfrastructurePage/Benefits.vue';
-import Header from '../components/ServicesPage/InfrastructurePage/Header.vue';
+    import Benefits from '../components/ServicesPage/InfrastructurePage/Benefits.vue';
+    import Header from '../components/ServicesPage/InfrastructurePage/Header.vue';
     import MiniServicesNavigations from '../components/ServicesPage/InfrastructurePage/MiniServicesNavigations.vue';
     import OverView from '../components/ServicesPage/InfrastructurePage/OverView.vue';
     import Sectors from '../components/ServicesPage/InfrastructurePage/Sectors.vue'

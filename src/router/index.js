@@ -7,6 +7,7 @@ import ICTPage from '../views/ICTPage.vue'
 import CustomerSupport from '../views/CustomerSupport.vue'
 import Software from '../views/Software.vue'
 import Infrastructure from '../views/InfrastructurePage.vue'
+import Security from '../views/Security.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -40,6 +41,11 @@ const router = createRouter({
       path: '/is',
       name: 'Infrastructure',
       component: Infrastructure
+    },
+    { 
+      path: '/ss',
+      name: 'Security',
+      component: Security
     },
     { 
       path: '/customer-support',
