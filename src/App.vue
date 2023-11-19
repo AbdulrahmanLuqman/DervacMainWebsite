@@ -19,6 +19,8 @@ export default defineComponent({
   <Footer />
 </template>
 
-<style scoped>
-
+<style>
+html{
+  scroll-behavior: smooth;
+}
 </style>

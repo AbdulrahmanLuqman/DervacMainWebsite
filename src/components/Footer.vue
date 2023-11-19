@@ -45,7 +45,7 @@
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Software Dev & Integration</a></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Technology & Solutions</a></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Educational Technology</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Training Services</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="https://hub.dervac.com/">Training Services</a></p>
                 </div>
 
                 <div class="space-y-2 pt-[28px]">

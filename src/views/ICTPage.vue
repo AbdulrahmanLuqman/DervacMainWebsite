@@ -1,0 +1,24 @@
+<template>
+    <Header />
+    <MiniServicesNavigations />
+    <OverView />
+    <Sectors />
+    <Benefits />
+    <ContactSection id="contact" />
+</template>
+
+<script>
+    import ContactSection from '../components/LandingPage/ContactSection.vue';
+import Benefits from '../components/ServicesPage/IctPage/Benefits.vue';
+import Header from '../components/ServicesPage/IctPage/Header.vue';
+    import MiniServicesNavigations from '../components/ServicesPage/IctPage/MiniServicesNavigations.vue';
+    import OverView from '../components/ServicesPage/IctPage/OverView.vue';
+    import Sectors from '../components/ServicesPage/IctPage/Sectors.vue'
+    export default {
+        components:{ Header, MiniServicesNavigations, OverView, Sectors, Benefits, ContactSection }
+    }
+</script>
+
+<style scoped>
+
+</style>
