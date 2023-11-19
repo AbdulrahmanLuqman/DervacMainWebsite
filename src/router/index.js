@@ -8,6 +8,7 @@ import CustomerSupport from '../views/CustomerSupport.vue'
 import Software from '../views/Software.vue'
 import Infrastructure from '../views/InfrastructurePage.vue'
 import Security from '../views/Security.vue'
+import Business from '../views/Business.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +47,11 @@ const router = createRouter({
       path: '/ss',
       name: 'Security',
       component: Security
+    },
+    { 
+      path: '/bs',
+      name: 'Business',
+      component: Business
     },
     { 
       path: '/customer-support',
