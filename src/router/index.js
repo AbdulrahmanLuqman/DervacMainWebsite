@@ -5,6 +5,7 @@ import ContactPage from '../views/ContactPage.vue'
 import NotFound from '../components/NotFound.vue';
 import ICTPage from '../views/ICTPage.vue'
 import CustomerSupport from '../views/CustomerSupport.vue'
+import Software from '../views/Software.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +29,11 @@ const router = createRouter({
       path: '/ict',
       name: 'IctPage',
       component: ICTPage
+    },
+    { 
+      path: '/sdi',
+      name: 'Software',
+      component: Software
     },
     { 
       path: '/customer-support',
