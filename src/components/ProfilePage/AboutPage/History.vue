@@ -1,11 +1,11 @@
 <template>
-    <section class="bg-[#0E2B61] py-20 space-y-10">
+    <section class="bg-[#0E2B61] py-20 space-y-10  lg:px-20 md:px-16 px-10">
         <h1 class="text-white text-4xl font-bold text-center">Our History</h1>
 
         <div class="space-y-8">
-            <div v-for="history in histories" :key="history.id" class="flex gap-20 justify-center">
+            <div v-for="history in histories" :key="history.id" class="flex flex-col gap-2 lg:flex-row lg:gap-20 justify-center">
                 <p class="font-semibold text-white text-xl">{{ history.year }}</p>
-                <p class="text-[#8D8EA3] font-semibold w-[700px] text-lg">{{ history.content }}</p>
+                <p class="text-[#8D8EA3] font-semibold lg:w-[700px] text-lg">{{ history.content }}</p>
             </div>
         </div>
     </section>

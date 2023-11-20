@@ -24,7 +24,7 @@
                       <div v-for="profileSubMenu in profileSubMenus" :key="profileSubMenu.id">
                         <router-link :to="profileSubMenu.navLink">
                           <li class="flex items-center gap-4 cursor-pointer px-8 py-2" @click="toggleSubMenu(profileSubMenu)">
-                            <svg v-show="profileSubMenu.isActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z" /></svg>
+                            <svg v-show="profileSubMenu.isActive" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z" /></svg>
                             <p class="font-semibold hover:text-[#0E2B61]" :class="{ 'text-[#0E2B61]': profileSubMenu.isActive, 'text-[#627792]': !profileSubMenu.isActive }" v-html="profileSubMenu.navName"></p>
                           </li>
                         </router-link>
@@ -45,7 +45,7 @@
                       <div v-for="servicesSubMenu in servicesSubMenus" :key="servicesSubMenu.id">
                         <router-link :to="servicesSubMenu.navLink">
                           <li class="flex items-center gap-4 cursor-pointer px-8 py-2" @click="toggleServicesMenu(servicesSubMenu)">
-                            <svg v-show="servicesSubMenu.isActive" class="icon" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z" /></svg>
+                            <svg v-show="servicesSubMenu.isActive" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#8D8EA3" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z" /></svg>
                             <p class="font-semibold hover:text-[#0E2B61]" :class="{ 'text-[#0E2B61]': servicesSubMenu.isActive, 'text-[#627792]': !servicesSubMenu.isActive }" v-html="servicesSubMenu.navName"></p>
                           </li>
                         </router-link>
@@ -96,39 +96,37 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="white" d="M19 6.41L17.59 5L12 10.59L6.41 5L5 6.41L10.59 12L5 17.59L6.41 19L12 13.41L17.59 19L19 17.59L13.41 12z"/></svg>
                 </div>
                 <ul class="flex gap-8 flex-col items-start w-full">
-                    <router-link to="/"><li @click="showMobileNav = false" class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Home</li></router-link>
+                    <router-link to="/"><li @click="showMobileNav = false" class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Home</li></router-link>
                     <li class="w-full">
                         <div @click="isCompanyDropDown = !isCompanyDropDown, isServicesDropDown = false" class="flex justify-between">
-                            <p class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Company</p>
+                            <p class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Company</p>
                             <div class="border border-gray-500 rounded-[50%] p-2 cursor-pointer" :class="isCompanyDropDown ? 'bg-[#0A1E40] border-none' : 'bg-transparent'">
-                                <svg :class="isCompanyDropDown ? 'icon' : ''" class=" transition-all duration-[0.2s]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="white" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887q.375-.375.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75q0 .375-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1q-.375-.375-.375-.888t.375-.887L14.475 12Z"/></svg>
+                                <svg :class="isCompanyDropDown ? 'icon' : ''" class="transition-all duration-[0.2s]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="white" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887q.375-.375.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75q0 .375-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1q-.375-.375-.375-.888t.375-.887L14.475 12Z"/></svg>
                             </div>
                         </div>
 
                         <div v-show="isCompanyDropDown" class="pl-6 space-y-2">
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <div v-for="profileSubMenu in profileSubMenus">
+                                <router-link :to="profileSubMenu.navLink"><p @click="showMobileNav = false" class="w-fit text-white font-semibold md:text-xl text-sm hover:text-[#DC2828] cursor-pointer">{{ profileSubMenu.navName }}</p></router-link>
+                            </div>
                         </div>
                     </li>
                     <li class="w-full">
                         <div @click="isServicesDropDown = !isServicesDropDown, isCompanyDropDown = false" class="flex justify-between">
-                            <p class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Services & Solutions</p>
+                            <p class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Services & Solutions</p>
                             <div class="border border-gray-500 rounded-[50%] p-2 cursor-pointer" :class="isServicesDropDown ? 'bg-[#0A1E40] border-none' : 'bg-transparent'">
                                 <svg :class="isServicesDropDown ? 'icon' : ''" class=" transition-all duration-[0.2s]" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path fill="white" d="m14.475 12l-7.35-7.35q-.375-.375-.363-.888t.388-.887q.375-.375.888-.375t.887.375l7.675 7.7q.3.3.45.675t.15.75q0 .375-.15.75t-.45.675l-7.7 7.7q-.375.375-.875.363T7.15 21.1q-.375-.375-.375-.888t.375-.887L14.475 12Z"/></svg>
                             </div>
                         </div>
 
                         <div v-show="isServicesDropDown" class="pl-6 space-y-2">
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
-                            <p @click="showMobileNav = false" class="w-fit text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Our History and Ethos</p>
+                            <div v-for="servicesSubMenu in servicesSubMenus">
+                                <router-link :to="servicesSubMenu.navLink"><p @click="showMobileNav = false" class="w-fit text-white font-semibold md:text-xl text-sm hover:text-[#DC2828] cursor-pointer">{{ servicesSubMenu.navName }}</p></router-link>
+                            </div>
                         </div>
                     </li>
-                    <li class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Customer Support</li>
-                    <router-link to="/contact"><li @click="showMobileNav = false" class="text-white font-semibold text-xl hover:text-[#DC2828] cursor-pointer">Get in touch</li></router-link>
+                    <router-link to="/customer-support"><li @click="showMobileNav = false" class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Customer Support</li></router-link>
+                    <router-link to="/contact"><li @click="showMobileNav = false" class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Get in touch</li></router-link>
                 </ul>
             </div>
         </nav>
@@ -211,7 +209,7 @@
                     },
                     {
                         navName: "Training Services & Customer Education",
-                        navLink: "/ts",
+                        navLink: "ts",
                         isActive: false
                     },
                 ]
@@ -302,7 +300,7 @@
 .active{
     color: #DC2828;
 }
-.menuActive{
-    color: blue;
+.icon{
+    transform: rotateZ(90deg);
 }
 </style>

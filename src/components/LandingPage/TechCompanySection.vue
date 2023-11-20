@@ -25,12 +25,14 @@
                     <img class="w-[100px]" src="../../assets/images/tech_partners/aspera.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/azure.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/cisco.png" alt="">
+                    <img class="w-[100px]" src="../../assets/images/tech_partners/commando.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/d-link.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/dell.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/eset.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/fortinet.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/google.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/hp-servers.png" alt="">
+                    <img class="w-[100px]" src="../../assets/images/tech_partners/hpe_logo.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/ibm.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/lenovo.png" alt="">
                     <img class="w-[100px]" src="../../assets/images/tech_partners/microsoft.png" alt="">

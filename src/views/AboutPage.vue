@@ -7,14 +7,13 @@
 </template>
 
 <script>
-import HeroSection from '../components/AboutPage/HeroSection.vue';
-import MiniNavigation from '../components/MiniNavigations.vue'
-import Solutions from '../components/AboutPage/Solutions.vue'
-import History from '../components/AboutPage/History.vue'
+import HeroSection from '../components/ProfilePage/AboutPage/HeroSection.vue';
+import Solutions from '../components/ProfilePage/AboutPage/Solutions.vue'
+import History from '../components/ProfilePage/AboutPage/History.vue'
 import ContactSection from '../components/LandingPage/ContactSection.vue';
 
     export default {
-    components: { HeroSection, MiniNavigation, Solutions, History, ContactSection }
+    components: { HeroSection, Solutions, History, ContactSection }
 }
 </script>
 
