@@ -53,7 +53,7 @@
                     </ul>
                 </li>
 
-                <router-link to="/customer-support"><li class="relative z-[999] text-[#224C75] font-semibold cursor-pointer" :class="{ 'active' : $route.name === 'CustomerSupport' }">Customer Support</li></router-link>
+                <router-link to="/customer-support"><li class="relative z-[999] text-[#224C75] font-semibold cursor-pointer" :class="{ 'active' : $route.name === 'CustomerSupport' }">Support</li></router-link>
 
                 <router-link to="/contact"><li @click="" class="relative z-[999] text-[#224C75] font-semibold cursor-pointer" :class="{ 'active': $route.name === 'ContactPage' }">Get in Touch</li></router-link>
             </ul>
