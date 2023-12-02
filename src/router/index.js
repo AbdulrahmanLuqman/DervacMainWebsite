@@ -12,6 +12,10 @@ import Business from '../views/BusinessPage.vue'
 import Educational from '../views/EducationalPage.vue'
 import TrainingServices from '../views/TrainingServices.vue'
 import CoreExpertise from '../views/CoreExpertise.vue'
+import Methodology from '../views/Methodology.vue'
+import Management from '../views/Management.vue'
+import Careers from '../views/Careers.vue'
+
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -75,6 +79,21 @@ const router = createRouter({
       path: '/core-expertise',
       name: 'CoreExpertise',
       component: CoreExpertise
+    },
+    {
+      path: '/methodology',
+      name: 'Methodology',
+      component: Methodology
+    },
+    {
+      path: '/management-team',
+      name: 'Management',
+      component: Management
+    },
+    {
+      path: '/careers',
+      name: 'Careers',
+      component: Careers
     },
     {
       path: '/:catchAll(.*)',

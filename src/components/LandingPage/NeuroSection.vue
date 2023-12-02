@@ -26,8 +26,8 @@
 
     </div>
 
-    <div class="lg:flex flex-col items-center gap-16 mt-[-210px] relative hidden">
-        <div class="flex gap-6 px-20">
+    <div class="lg:flex flex-col items-center gap-16 mt-[-210px] relative hidden lg:px-20 md:px-16 px-10">
+        <div class="flex gap-6">
     <!-- <VueAIcarousel :Property="{ID: 'Unique_id', Dlay: 1000}"> -->
         <div v-for="service in displayServices" :key="service.id" class="body bg-white h-[550px] rounded-xl shadow-xl flex flex-col justify-between w-full items-center px-8 py-12">
             <p class="text-[#253858] font-semibold text-2xl text-center">{{ service.heading }}</p>
@@ -61,14 +61,12 @@
             </div>
             <p class="text-[#8D8EA3] text-center">Dervac excels in Infrastructure & Support Services, providing robust systems and reliable support. Our core competence ensures seamless operations and optimal performance for your business infrastructure.</p>
             <div class="anchor flex gap-2 justify-center items-center font-semibold text-lg cursor-pointer relative z-[200] px-6 overflow-hidden">
-                <router-link to="/more"><p class="anchor-link text-[#1EC2EF]">Find out more</p></router-link>
+                <router-link to="/is"><p class="anchor-link text-[#1EC2EF]">Find out more</p></router-link>
                 <svg class="anchor-link text-[#1EC2EF]" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="currentColor" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
 
                 <div class="bg-c transition-top duration-[0.7s] z-[-200] bg-[#FC5546] absolute w-full h-full top-8"></div>
             </div>
         </div>
-
-<!--    You can use any number of Content [ID is important] -->
 </template>
 
 <script>
@@ -194,7 +192,7 @@ import { defineComponent } from 'vue'
     display: none;
 }
 
-@media (max-width:1024px) {
+@media (max-width:1023px) {
     .mobile-service{
         display: block;
         margin-top: -200px;

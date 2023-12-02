@@ -125,7 +125,7 @@
                             </div>
                         </div>
                     </li>
-                    <router-link to="/customer-support"><li @click="showMobileNav = false" class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Customer Support</li></router-link>
+                    <router-link to="/customer-support"><li @click="showMobileNav = false" class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Supports</li></router-link>
                     <router-link to="/contact"><li @click="showMobileNav = false" class="text-white font-semibold md:text-xl text-md hover:text-[#DC2828] cursor-pointer">Get in touch</li></router-link>
                 </ul>
             </div>

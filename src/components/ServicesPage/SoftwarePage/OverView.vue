@@ -3,11 +3,11 @@
         <div class="lg:w-[60%] md:w-[80%] w-full space-y-6">
             <div class="space-y-2">
                 <h3 class="text-[#8696AB] text-center font-semibold tracking-widest">Overview</h3>
-                <p class="text-[#224C75] text-3xl font-semibold text-center">Expert IT services for the banking Industry</p>
+                <p class="text-[#224C75] text-3xl font-semibold text-center">Software and Web Development Services </p>
             </div>
 
             <div class="space-y-2">
-                <p class="text-[#8696AB] text-lg">Faced with increasing competition, banking and financial services organizations must move quickly to meet new customer, employee and industry demands while addressing complex regulatory mandates and heightened security threats.</p>
+                <p class="text-[#8696AB] text-lg">Dervac is an experienced software development firm providing offshore software development services. We design and implement professional web applications based on modern technologies. Our cost-effective solutions offer rich, user friendly and robust applications in combination with any modern database system. We follow our client's needs and offer solutions at the highest level.</p>
 
                 <ul class="px-10">
                     <li class="list-disc text-[#8696AB] text-lg">To attract and retain customers, they must provide new and more innovative ways to interact with financial services, from online banking and mobile apps, to contact centers, to a more modern in-branch experience.</li>

@@ -4,7 +4,7 @@
 
 <template>
                 <!-- max-[1285px]:h-fit -->
-<div class="flex lg:flex-row flex-col items-center justify-center w-full gap-20 lg:p-10 mt-[25px] mb-[0px] pt-10 pb-20  max-[572px]:px-10">
+<div class="flex lg:flex-row flex-col items-center justify-center w-full gap-20 lg:py-10 mt-[25px] mb-[0px] pt-10 pb-20  lg:px-20 md:px-16 px-10">
     <div class="w-full h-full">
         <img class="w-full h-full" src="../../assets/images/gentle-coder-in-training-schedule-section-3c10d71f.svg" alt="">
     </div>

@@ -10,7 +10,7 @@
                 </div>
             </a>
         </div>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2  lg:gap-10 md:gap-6 gap-10">
+        <!-- <div class="grid lg:grid-cols-3 md:grid-cols-2  lg:gap-10 md:gap-6 gap-10">
             <div v-for="about in abouts" :key="about.id" class="body w-full h-[400px] bg-white rounded-xl shadow-xl flex flex-col justify-between items-center px-8 py-12">
                 <p class="text-[#253858] font-semibold text-2xl">{{ about.heading }}</p>
                 <div class="flex flex-col items-center space-y-2">
@@ -24,7 +24,7 @@
                     <div class="bg-c transition-top duration-[0.2s] z-[-200] bg-[#FC5546] absolute w-full h-full top-20"></div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
 </template>
 
@@ -36,21 +36,21 @@
                 abouts: [
                     {
                         heading: 'What We Do',
-                        content: 'For quick answers to common questions, try our FAQ first!',
+                        content: 'Technology can be complicated, but we’ve seen it all before and can help you with any IT issue.',
                         icon: 'src/assets/images/messages.svg',
                         more: 'View Our Services',
                         link: '/faqs'
                     },
                     {
                         heading: 'Who We Help',
-                        content: '9, Tunde Oshilaja Street, Opebi, Ikeja',
+                        content: 'Our vertical solutions expertise allows your business to streamline workflow, and increase productivity.',
                         icon: 'src/assets/images/headquarters.svg',
                         more: 'Industries We Serve',
                         link: '/faqs'
                     },
                     {
                         heading: 'Why Choose Us',
-                        content: 'Open Monday to Friday From 09:00 AM to 18:00 PM',
+                        content: 'We have a proven process to help you move your business forward and we’re with you every step of the way.',
                         icon: 'src/assets/images/time.svg',
                         more: 'Find Out More',
                         link: '/faqs'

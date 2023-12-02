@@ -1,6 +1,6 @@
 <template>
-    <section class="py-20 px-20 space-y-20 bg-gradient-to-t from-[#F3F4F7] to-[#FDFDFD] flex flex-col items-center">
-        <div class="w-[500px] space-y-4">
+    <section class="py-20 lg:px-20 md:px-16 px-10 space-y-20 bg-gradient-to-t from-[#F3F4F7] to-[#FDFDFD] flex flex-col items-center">
+        <div class="lg:w-[500px] md:w-[80%] space-y-4">
             <h1 class="text-5xl text-center text-[#224C75] font-bold">Contact Us</h1>
             <p class="text-[#8D8EA3] text-center">Interested in our IT services or need advice? Then please get in touch and we’ll be glad to help.</p>
         </div>

@@ -32,19 +32,19 @@
             <!-- <div class="flex flex-wrap gap-10 w-[60%]"> -->
                 <div class="space-y-2 pt-[28px]">
                     <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Company</p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Core Expertise</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Why Work With Us</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Our Metholodogy</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Co-Working Space</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Careers</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/core-expertise">Our Core Expertise</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/management-team">Why Work With Us</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/methodology">Our Metholodogy</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/">Co-Working Space</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/careers">Careers</router-link></p>
                 </div>
 
                 <div class="space-y-2 pt-[28px]">
                     <p class="text-[#253858] font-semibold text-lg hover:text-[#DC2828]">Services</p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Infrastructure & Support</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Software Dev & Integration</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Technology & Solutions</a></p>
-                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="#">Educational Technology</a></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/is">Infrastructure & Support</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/sdi">Software Dev & Integration</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/bs">Technology & Solutions</router-link></p>
+                    <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><router-link to="/etc">Educational Technology</router-link></p>
                     <p class="w-fit text-[#8D8EA3] hover:text-[#DC2828] hover:underline"><a href="https://hub.dervac.com/">Training Services</a></p>
                 </div>
 
@@ -66,8 +66,8 @@
             <a href="https://twitter.com/Dervachub"><svg class="text-[#8D8EA3] hover:text-[#DC2828]" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231l5.45-6.231Zm-1.161 17.52h1.833L7.045 4.126H5.078L17.044 19.77Z"/></svg></a>
         </div>
 
-        <div>
-            <p class="text-[#8D8EA3] text-center py-10 border-t">Copyright &copy; {{ year }} <span class="font-[Bimini]">~ Dervac</span>. All Rights Reserved.</p>
+        <div class="w-full">
+            <p class="text-[#8D8EA3] text-center py-10 border-t w-full">Copyright &copy; {{ year }} <span class="font-[Bimini]">~ Dervac</span>. All Rights Reserved.</p>
         </div>
     </footer>
 </template>

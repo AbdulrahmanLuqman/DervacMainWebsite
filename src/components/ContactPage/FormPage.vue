@@ -1,7 +1,7 @@
 <template>
-    <section class="my-20">
-        <form class="border border-4 w-[60%] mx-auto rounded p-14 space-y-10">
-            <div class="flex gap-12">
+    <section class="lg:px-20 md:px-16 px-10 my-20">
+        <form class="border border-4 lg:w-[60%] mx-auto rounded lg:p-14 p-6 space-y-10">
+            <div class="flex lg:flex-row flex-col gap-12">
                 <div class="flex flex-col gap-2 w-full">
                     <label for="name" class="font-semibold text-[#224C75]">Full name *</label>
                     <input id="name" class="border rounded-lg outline-none py-4 px-10 text-[#224C75] focus:border-[#DC2828]" type="text" placeholder="e.g.,Kareem Abdulateef">
@@ -11,7 +11,7 @@
                     <input id="company" class="border rounded-lg outline-none py-4 px-10 text-[#224C75] focus:border-[#DC2828]" type="text" placeholder="Company Name">
                 </div>
             </div>
-            <div class="flex gap-12">
+            <div class="flex lg:flex-row flex-col gap-12">
                 <div class="flex flex-col gap-2 w-full">
                     <label for="work" class="font-semibold text-[#224C75]">Work email address *</label>
                     <input id="work" class="border rounded-lg outline-none py-4 px-10 text-[#224C75] focus:border-[#DC2828]" type="text" placeholder="name@company.com">
@@ -21,7 +21,7 @@
                     <input id="number" class="border rounded-lg outline-none py-4 px-10 text-[#224C75] focus:border-[#DC2828]" type="text" placeholder="Full Number(incl.prefix)">
                 </div>
             </div>
-            <div class="flex gap-12">
+            <div class="flex lg:flex-row flex-col gap-12">
                 <div class="flex flex-col gap-2 w-full">
                     <label for="size" class="font-semibold text-[#224C75]">Company size *</label>
                     <select id="size" class="border rounded-lg outline-none py-4 px-10 focus:border-[#DC2828] text-[#8D8EA3] font-semibold" type="text">
@@ -48,7 +48,7 @@
                     <label for="message" class="font-semibold text-[#224C75]">How can we help you? *</label>
                     <textarea id="message" class="border rounded-lg outline-none py-4 px-10 text-[#224C75] focus:border-[#DC2828]" type="text" placeholder="Let us know what you need"></textarea>
             </div>
-            <p class="w-full bg-[#224C75] font-semibold text-white text-lg rounded-md py-2 cursor-pointer text-center hover:bg-[#DC2828] transition-all duration-[0.3s] hover:transition-all hover:duration-[0.3s]">Submit</p>
+            <input type="submit" class="w-full bg-[#224C75] font-semibold text-white text-lg rounded-md py-2 cursor-pointer text-center hover:bg-[#DC2828] transition-all duration-[0.3s] hover:transition-all hover:duration-[0.3s]" />
         </form>
     </section>
 </template>

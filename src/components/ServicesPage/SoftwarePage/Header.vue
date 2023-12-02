@@ -1,8 +1,8 @@
 <template>
     <header>
         <div class="bg-[#224C75] h-full w-full opacity-50 absolute top-0"></div>
-        <div class="h-full w-full flex flex-col items-center justify-center absolute top-0 space-y-8">
-            <p class="text-white font-semibold lg:text-5xl text-3xl tracking-widest border-b border-b-4 pb-2 text-center">Software Development & Integration</p>
+        <div class="lg:px-20 md:px-16 px-10 h-full w-full flex flex-col items-center justify-center absolute top-0 space-y-8">
+            <p class="text-center text-white font-semibold lg:text-5xl text-3xl tracking-widest border-b border-b-4 pb-2 text-center">Software Development & Integration</p>
             <router-link to="/contact">
                 <div class="get flex items-center gap-4 cursor-pointer w-[250px] relative overflow-hidden">
                     <p class="text-white font-semibold">GET A IT SOLUTIONS QUOTE</p>

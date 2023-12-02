@@ -1,8 +1,8 @@
 <template>
-    <section class="space-y-10 lg:p-10 py-10 px-20 max-[572px]:px-10">
+    <section class="space-y-10 lg:py-10 py-10 lg:px-20 md:px-16 px-10">
         <div class="space-y-2">
             <p class="text-[#224C75] tracking-widest text-sm">DISCOVER OUR COMPANY</p>
-            <p class="text-3xl text-[#0E2B5C] font-semibold">Experience the culture that make us stand out.</p>
+            <p class="text-4xl max-[1397px]:text-3xl max-[1183px]:text-2xl max-[1024px]:text-4xl max-[700px]:text-2xl max-[500px]:text-xl text-[#0E2B5C] font-semibold">Experience the culture that make us stand out.</p>
         </div>
         <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-[60px] lg:gap-[40px]">
             <!-- <div class="w-full space-y-4 border-t-[8px] border-[#DC2828] px-4 pt-10">
@@ -28,7 +28,7 @@
                             <p class="flex gap-10 font-semibold text-[#224C75] text-lg">{{ discover.heading }}</p>
                             <div class="relative"><svg class="icon absolute top-[-5px] left-[2000px] transition-all duration-500" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="#224C75" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg></div>
                         </div>
-                        <p v-html="discover.content" class="text-[#929FB5] text-[17px]"></p>
+                        <p v-html="discover.content" class="text-[#929FB5]"></p>
                     </div>
                 </router-link>
             </div>

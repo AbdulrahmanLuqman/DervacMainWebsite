@@ -20,19 +20,19 @@
             return{
                 benefits: [
                     {
-                        header: 'Business Agility',
+                        header: 'Vendor management',
                         content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
                     },
                     {
-                        header: 'Business Agility',
+                        header: 'Original Equipment Manufacturers (OEM)',
                         content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
                     },
                     {
-                        header: 'Business Agility',
+                        header: 'Improved service quality',
                         content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
                     },
                     {
-                        header: 'Business Agility',
+                        header: 'IT experts and resources',
                         content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
                     }
                 ]
