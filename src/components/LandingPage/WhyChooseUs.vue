@@ -42,11 +42,11 @@
                         <div class="w-full bg-gray-400 h-[6px] rounded-lg overflow-hidden"><div class="bg-[#224C75] h-[6px] w-[95%]"></div></div>
                     </div>
                     <div class="space-y-2">
-                        <div class="flex w-[85%] justify-between">
-                            <p class="text-[#224C75] font-semibold">High Success Rate</p>
-                            <p class="text-[#224C75] font-semibold">85%</p>
+                        <div class="flex w-[90%] justify-between">
+                            <p class="text-[#224C75] font-semibold">Success Rate</p>
+                            <p class="text-[#224C75] font-semibold">90%</p>
                         </div>
-                        <div class="w-full bg-gray-400 h-[6px] rounded-lg overflow-hidden"><div class="bg-[#224C75] h-[6px] w-[85%]"></div></div>
+                        <div class="w-full bg-gray-400 h-[6px] rounded-lg overflow-hidden"><div class="bg-[#224C75] h-[6px] w-[90%]"></div></div>
                     </div>
                 </div>
             </div>

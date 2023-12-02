@@ -166,8 +166,8 @@
                         isActive: false
                     },
                     {
-                        navName: "Management Team",
-                        navLink: "/management-team",
+                        navName: "Team",
+                        navLink: "/team",
                         isActive: false
                     },
                     {

@@ -22,7 +22,7 @@
             <p class="text-lg max-[1140px]:text-[17px] max-[1024px]:text-lg max-[500px]:text-base">The features are up-to-date and have helped our clients streamline their workflow significantly</p>
         </div> -->
 
-        <button type="button" class="bg-gradient-to-r from-[#2d557c] to-[#102539] hover:bg-gradient-to-t px-4 py-2 text-white rounded-xl">learn more</button>
+        <button type="button" class="bg-gradient-to-r from-[#2d557c] to-[#102539] hover:bg-gradient-to-t px-4 py-2 text-white rounded-xl"><router-link to="/about">learn more</router-link></button>
     </div>
 </div>
 </template>

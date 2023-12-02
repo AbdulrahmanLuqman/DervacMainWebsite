@@ -86,7 +86,7 @@ const router = createRouter({
       component: Methodology
     },
     {
-      path: '/management-team',
+      path: '/team',
       name: 'Management',
       component: Management
     },

@@ -3,11 +3,11 @@
         <div class="relative z-[800] lg:w-[50%] md:w-[70%] lg:px-20 md:px-16 px-10 space-y-10">
             <p class="text-[#dc2828] text-lg font-semibold tracking-wider">Dervac in numbers</p>
             <p class="text-4xl max-[1397px]:text-3xl max-[1183px]:text-2xl max-[1024px]:text-4xl max-[700px]:text-2xl max-[500px]:text-xl font-semibold text-white">Leading the Way in Technological Advancement</p>
-            <p class="text-white">Our specialists team can enable the seamless integration of systems and technologies from different suppliers, as well as between legacy equipment and cutting edge technology.</p>
+            <p class="text-white">Our specialized team can enable the seamless integration of systems and technologies from different suppliers, as well as between legacy equipment and cutting edge technology.</p>
             <div class="w-full bg-white h-[1px]"></div>
             <div class="flex justify-between">
                 <div>
-                    <p class="text-white font-semibold lg:text-5xl md:text-4xl text-xl">110+</p>
+                    <p class="text-white font-semibold lg:text-5xl md:text-4xl text-xl">200+</p>
                     <p class="text-gray-300 font-light md:text-md text-sm">Projects Done</p>
                 </div>
                 <div>

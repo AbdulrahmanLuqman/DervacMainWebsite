@@ -7,14 +7,14 @@
 
         <div class="grid md:grid-cols-2 grid-cols-1 w-full lg:px-20 md:px-16 px-10">
             <div class="w-full bg-[#E55B5B] lg:p-20 md:p-10 p-6 space-y-4">
-                <h3 class="text-3xl font-semibold text-center text-[#224C75]">Commitment</h3>
+                <h3 class="text-3xl font-semibold text-center text-[#fff]">Commitment</h3>
                 <div class="flex gap-4">
-                    <div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><path fill="#224C75" fill-rule="evenodd" stroke="#E55B5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="" d="M4 24L9 19L19 29L39 9L44 14L19 39L4 24Z" clip-rule="evenodd"/></svg></div>
-                    <p class="text-[#224C75]">We remain steadfast in your project, dedicated to fulfilling your entrusted tasks.</p>
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><path fill="#fff" fill-rule="evenodd" stroke="#E55B5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="" d="M4 24L9 19L19 29L39 9L44 14L19 39L4 24Z" clip-rule="evenodd"/></svg></div>
+                    <p class="text-[#fff]">We remain steadfast in your project, dedicated to fulfilling your entrusted tasks.</p>
                 </div>
                 <div class="flex gap-4">
-                    <div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><path fill="#224C75" fill-rule="evenodd" stroke="#E55B5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="" d="M4 24L9 19L19 29L39 9L44 14L19 39L4 24Z" clip-rule="evenodd"/></svg></div>
-                    <p class="text-[#224C75]">We tirelessly commit resources to ensure timely project completion and delivery.</p>
+                    <div><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48"><path fill="#fff" fill-rule="evenodd" stroke="#E55B5B" stroke-linecap="round" stroke-linejoin="round" stroke-width="" d="M4 24L9 19L19 29L39 9L44 14L19 39L4 24Z" clip-rule="evenodd"/></svg></div>
+                    <p class="text-[#fff]">We tirelessly commit resources to ensure timely project completion and delivery.</p>
                 </div>
             </div>
             <div class="w-full bg-[#224C75] lg:p-20 md:p-10 p-6 space-y-4">

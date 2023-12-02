@@ -8,7 +8,7 @@
     <div class="z-[100] relative text-center text-white flex flex-col space-y-3 items-center lg:w-[75%] w-full mx-auto lg:p-10 pt-10 pb-20 lg:px-20 md:px-16 px-10">
         <p class="text-[#dc2828] text-[16px] font-semibold">WE ARE TECH COMPANY</p>
 
-        <p class="text-4xl max-[1397px]:text-3xl max-[1183px]:text-2xl max-[1024px]:text-4xl max-[700px]:text-2xl max-[500px]:text-xl font-bold">Turning Difficulties into Technological Victories</p>
+        <p class="text-4xl max-[1397px]:text-3xl max-[1183px]:text-2xl max-[1024px]:text-4xl max-[700px]:text-2xl max-[500px]:text-xl font-bold">Delivering Cutting-edge solution through technological innovations</p>
 
         <p class="md:text-md text-sm">At our core, we specialize in converting complex challenges into resounding technological successes. We thrive on finding innovative solutions that not only overcome obstacles but also propel your business forward. Our team of experts is dedicated to harnessing the power of technology to tackle the most intricate issues, ensuring that you achieve triumph in your endeavors. We are your trusted partner in achieving technological victories that drive progress and achieve your objectives</p>
 

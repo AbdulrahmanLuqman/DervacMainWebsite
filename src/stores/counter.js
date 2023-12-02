@@ -12,13 +12,13 @@ export default function store() {
           routeTo: "/about"
         },
         {
-          heading: "Our Strategy",
+          heading: "Strategy",
           content: "At Dervac, we won't just plan your company's IT Solutions; we will , and <b>BUILD IT</b>, <b>MAINTAIN IT</b> and <b>HELP YOU GROW YOUR BUSINESS</b>.",
           routeTo: "/about"
         },
         {
-          heading: "Our Promise and Dedication",
-          content: "We are dedicated to serving, satisfying and making our valued clients stay ahead of today's technology by providing updated IT Solutions. And to win new ones through excellent performance.",
+          heading: "Promise and Dedication",
+          content: "Dedicated to delivering cutting-edge IT solutions, we prioritize client satisfaction, ensuring they stay ahead in technology. Our commitment attracts and retains valued clients.",
           routeTo: "/about"
         },
         {
