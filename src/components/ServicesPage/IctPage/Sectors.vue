@@ -25,34 +25,34 @@
             return{
                 sectors: [
                     {
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M19 19h-2q-.425 0-.713-.288T16 18q0-.425.288-.713T17 17h2v-2q0-.425.288-.713T20 14q.425 0 .713.288T21 15v2h2q.425 0 .713.288T24 18q0 .425-.288.713T23 19h-2v2q0 .425-.288.713T20 22q-.425 0-.713-.288T19 21v-2ZM4 12h16V8H4v4Zm0 8q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v6h-3q-2.075 0-3.538 1.463T14 17v3H4Z"/></svg>',
-                        heading:'Investment Banking',
-                        content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci corporis deleniti consectetur, suscipit ducimus molestias.'
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#224C75" width="50" height="50"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 17h5m-4 2h2m-3-4v5m-4-4l-4 4-4-4m4-4l4 4 4-4"/></svg>',
+                        heading:'Cloud Solutions',
+                        content: 'Elevate your business with scalable, efficient, and tailored cloud solutions for optimal performance and growth.'
                     },
                     {
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M19 19h-2q-.425 0-.713-.288T16 18q0-.425.288-.713T17 17h2v-2q0-.425.288-.713T20 14q.425 0 .713.288T21 15v2h2q.425 0 .713.288T24 18q0 .425-.288.713T23 19h-2v2q0 .425-.288.713T20 22q-.425 0-.713-.288T19 21v-2ZM4 12h16V8H4v4Zm0 8q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v6h-3q-2.075 0-3.538 1.463T14 17v3H4Z"/></svg>',
-                        heading:'Investment Banking',
-                        content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci corporis deleniti consectetur, suscipit ducimus molestias.'
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#224C75" width="50" height="50"> <rect width="18" height="18" x="3" y="3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="1" y1="3" x2="21" y2="3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <line x1="10" y1="3" x2="10" y2="21" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/></svg>',
+                        heading:'Data Center Management',
+                        content: 'Ensure data reliability and security with expert oversight, minimizing downtime and maximizing productivity.'
                     },
                     {
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M19 19h-2q-.425 0-.713-.288T16 18q0-.425.288-.713T17 17h2v-2q0-.425.288-.713T20 14q.425 0 .713.288T21 15v2h2q.425 0 .713.288T24 18q0 .425-.288.713T23 19h-2v2q0 .425-.288.713T20 22q-.425 0-.713-.288T19 21v-2ZM4 12h16V8H4v4Zm0 8q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v6h-3q-2.075 0-3.538 1.463T14 17v3H4Z"/></svg>',
-                        heading:'Investment Banking',
-                        content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci corporis deleniti consectetur, suscipit ducimus molestias.'
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#224C75" width="50" height="50"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+                        heading:'Network Support',
+                        content: 'Optimize and expand your network capabilities with dedicated support for robust and reliable performance.'
                     },
                     {
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M19 19h-2q-.425 0-.713-.288T16 18q0-.425.288-.713T17 17h2v-2q0-.425.288-.713T20 14q.425 0 .713.288T21 15v2h2q.425 0 .713.288T24 18q0 .425-.288.713T23 19h-2v2q0 .425-.288.713T20 22q-.425 0-.713-.288T19 21v-2ZM4 12h16V8H4v4Zm0 8q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v6h-3q-2.075 0-3.538 1.463T14 17v3H4Z"/></svg>',
-                        heading:'Investment Banking',
-                        content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci corporis deleniti consectetur, suscipit ducimus molestias.'
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M17 9V7c0-2.8-2.2-5-5-5S7 4.2 7 7v2c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h10c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3M9 7c0-1.7 1.3-3 3-3s3 1.3 3 3v2H9zm4.1 8.5l-.1.1V17c0 .6-.4 1-1 1s-1-.4-1-1v-1.4c-.6-.6-.7-1.5-.1-2.1c.6-.6 1.5-.7 2.1-.1c.6.5.7 1.5.1 2.1"/></svg>',
+                        heading:'Security Measures',
+                        content: 'Safeguard digital assets with advanced threat prevention, encryption, and compliance protocols for comprehensive security.'
                     },
                     {
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M19 19h-2q-.425 0-.713-.288T16 18q0-.425.288-.713T17 17h2v-2q0-.425.288-.713T20 14q.425 0 .713.288T21 15v2h2q.425 0 .713.288T24 18q0 .425-.288.713T23 19h-2v2q0 .425-.288.713T20 22q-.425 0-.713-.288T19 21v-2ZM4 12h16V8H4v4Zm0 8q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v6h-3q-2.075 0-3.538 1.463T14 17v3H4Z"/></svg>',
-                        heading:'Investment Banking',
-                        content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci corporis deleniti consectetur, suscipit ducimus molestias.'
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#224C75" width="50" height="50"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 14l5-5 5 5M7 21l5-5 5 5"/></svg>',
+                        heading:'Remote User Assistance',
+                        content: 'Empower remote teams with prompt and efficient technical support, ensuring smooth operations and productivity.'
                     },
                     {
-                        icon: '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"><path fill="#224C75" d="M19 19h-2q-.425 0-.713-.288T16 18q0-.425.288-.713T17 17h2v-2q0-.425.288-.713T20 14q.425 0 .713.288T21 15v2h2q.425 0 .713.288T24 18q0 .425-.288.713T23 19h-2v2q0 .425-.288.713T20 22q-.425 0-.713-.288T19 21v-2ZM4 12h16V8H4v4Zm0 8q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v6h-3q-2.075 0-3.538 1.463T14 17v3H4Z"/></svg>',
-                        heading:'Investment Banking',
-                        content: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci corporis deleniti consectetur, suscipit ducimus molestias.'
+                        icon: '<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="#224C75" width="50" height="50"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>',
+                        heading:'Swift Issue Resolution',
+                        content: 'Minimize disruptions with agile and proactive issue resolution, keeping your business operations seamlessly on track.'
                     }
                 ]
             }

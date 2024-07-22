@@ -1,9 +1,9 @@
 <template>
     <Header />
-    <MiniServicesNavigations />
+    <!-- <MiniServicesNavigations /> -->
     <OverView />
-    <Sectors />
-    <Benefits />
+    <!-- <Sectors />
+    <Benefits /> -->
     <ContactSection id="contact" />
 </template>
 

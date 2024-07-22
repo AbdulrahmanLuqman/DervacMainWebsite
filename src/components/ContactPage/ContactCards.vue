@@ -16,7 +16,7 @@
                         <div class="shadow transition-all duration-[0.2s] bg-black w-[80px] h-[20px] rounded-[50%] opacity-[0.1] mx-auto"></div>
                     </div>
                     <div class="anchor flex gap-2 justify-center items-center font-semibold text-lg cursor-pointer relative z-[200] px-6 overflow-hidden">
-                        <router-link :to="contact.link"><p class="anchor-link text-[#1EC2EF]">{{ contact.more }}</p></router-link>
+                        <p class="anchor-link text-[#1EC2EF]"><a :href="contact.link">{{ contact.more }}</a></p>
                         <svg class="anchor-link text-[#1EC2EF]" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 20 20"><path fill="currentColor" d="M8.6 3.4L14.2 9H2v2h12.2l-5.6 5.6L10 18l8-8l-8-8z"/></svg>
 
                         <div class="bg-c transition-top duration-[0.2s] z-[-200] bg-[#FC5546] absolute w-full h-full top-8"></div>
@@ -39,21 +39,21 @@
                         content: '9, Tunde Oshilaja Street, Opebi, Ikeja',
                         icon: 'src/assets/images/headquarters.svg',
                         more: 'Contact Us',
-                        link: '/'
+                        link: 'mailto:info@dervac.com'
                     },
                     {
                         heading: 'Hub',
                         content: '65, Shipeolu Street, Palmgroove, Lagos, Nigeria.',
                         icon: 'src/assets/images/messages.svg',
                         more: 'Contact Us',
-                        link: '/'
+                        link: 'mailto:hub@dervac.com'
                     },
                     {
                         heading: 'Working hours',
                         content: 'Open Monday to Friday From 09:00 AM to 18:00 PM',
                         icon: 'src/assets/images/time.svg',
                         more: 'Help Center',
-                        link: '/'
+                        link: 'mailto:hub@dervac.com'
                     }
                 ]
             }

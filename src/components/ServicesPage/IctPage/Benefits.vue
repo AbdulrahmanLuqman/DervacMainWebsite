@@ -20,20 +20,20 @@
             return{
                 benefits: [
                     {
-                        header: 'Business Agility',
-                        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
+                        header: 'Increased Operational Efficiency',
+                        content: 'Our clients experience heightened end-user productivity, achieving more with streamlined and efficient IT solutions.'
                     },
                     {
-                        header: 'Business Agility',
-                        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
+                        header: 'Seamless Technology Integration',
+                        content: 'Benefit from expertly integrated solutions, ensuring a smooth blend of technology within your business processes for optimal performance.'
                     },
                     {
-                        header: 'Business Agility',
-                        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
+                        header: 'Proactive Issue Prevention',
+                        content: 'Stay ahead with our services that proactively identify and address potential issues, minimizing disruptions and maximizing business continuity.'
                     },
                     {
-                        header: 'Business Agility',
-                        content: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita sunt officiis a eveniet ratione unde dolorum nisi delectus eum non.'
+                        header: 'Scalable Solutions for Growth',
+                        content: 'Our offerings provide scalable IT solutions, accommodating your business growth and adapting to evolving needs effortlessly.'
                     }
                 ]
             }
